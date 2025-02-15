@@ -16,6 +16,9 @@
 #include "ars548_driver/ars548_driver.hpp"
 #include "ars548_driver/ars548_data.h"
 
+// Isn't _Float32 a c++23 thing?
+#define _Float32 float
+
 #define RADAR_INTERFACE "10.13.1.166"
 #define CONFIGURATION_SOURCE_PORT 42401
 #define CONFIGURATION_DESTINATION_PORT 42101
